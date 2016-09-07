@@ -1,0 +1,1 @@
+# oslometro.sh
