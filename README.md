@@ -15,16 +15,16 @@ Departures heading towards sentrum
 
   L │ DESTINATION                   │ DEPATURW │ PLF
  ───│───────────────────────────────│──────────│─────
-  ④ │ Vestli                        │ 3 min    │  2
-  ⑤ │ Sognsvann                     │ 6 min    │  2
-  ⑤ │ Ringen via Storo              │ 13 min   │  2
+  4 │ Vestli                        │ 3 min    │  2
+  5 │ Sognsvann                     │ 6 min    │  2
+  5 │ Ringen via Storo              │ 13 min   │  2
 
 
 Departures heading towards Sognsvann/Storo
 
   L │ DESTINATION                   │ DEPATURE │ PLF
  ───│───────────────────────────────│──────────│─────
-  ⑤ │ Ringen via Majorstuen         │ 4 min    │  1
-  ④ │ Bergkrystallen via Majorstuen │ 10 min   │  1
-  ⑤ │ Vestli via Majorstuen         │ 15:38    │  1
+  5 │ Ringen via Majorstuen         │ 4 min    │  1
+  4 │ Bergkrystallen via Majorstuen │ 10 min   │  1
+  5 │ Vestli via Majorstuen         │ 15:38    │  1
 ```
