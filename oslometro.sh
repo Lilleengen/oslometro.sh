@@ -40,14 +40,14 @@ for i; do
 done
 
 # Get data
-results=$(curl -s "http://mon.ruter.no/SisMonitor/Refresh?stopid=${stopid}&computerid=7498d94a-eaf2-4c1b-8015-8c076805242e&isOnLeftSide=true&blocks=&rows=10&test=&stopPoint=" | grep "<td class=\"center\">\|<td>" | sed 's/<[^>]*>//g' | sed 's/^[ \t]*//g' | tr -d "\r")
+results=$(curl -s "http://mon.ruter.no/SisMonitor/Refresh?stopid=${stopid}&computerid=7498d94a-eaf2-4c1b-8015-8c076805242e&isOnLeftSide=true&blocks=&rows=10&test=&stopPoint=" | grep "<td class=\"linenumbercol\">\|<td class=\"departurecol\">\|<td>" | sed 's/<[^>]*>//g' | sed 's/^[ \t]*//g' | tr -d "\r")
 
 # Print data
 
 IFS='
 '
 
-outputWest="  L\t DESTINATION \t DEPATURW \t PLF\n ───\t───────────────────────────────\t──────────\t─────\n"
+outputWest="  L\t DESTINATION \t DEPATURE \t PLF\n ───\t───────────────────────────────\t──────────\t─────\n"
 outputEast="  L\t DESTINATION \t DEPATURE \t PLF\n ───\t───────────────────────────────\t──────────\t─────\n"
 line=""
 count=0
